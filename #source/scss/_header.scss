@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b1b1b;
+  color: #e7e7e7;
+  p {
+    font-size: 36px;
+  }
+  a {
+    color: #e7e7e7;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #e7e7e7;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  a {
+    margin-left: 10px;
+  }
+}
+
+.mobileNum {
+  font-size: 24px;
+}
