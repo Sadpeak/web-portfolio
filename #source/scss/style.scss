@@ -1,4 +1,47 @@
 @import "normalize", "footer", "header";
 
-// .container {
-// }
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #e7e7e7;
+}
+.containerr {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  justify-content: center;
+  .photo {
+    margin-top: 180px;
+    border-radius: 50%;
+    max-width: 530px;
+    transform: rotate(20deg);
+  }
+  .about {
+    width: 630px;
+    margin-top: 215px;
+    padding-left: 75px;
+    h1 {
+      font-style: 36px;
+    }
+    p {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-size: 24px;
+      line-height: 50px;
+      line-height: normal;
+    }
+    button {
+      background-color: #5181b8;
+      padding: 28px;
+      color: #fff;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    button:focus {
+      outline: 0;
+    }
+    button:active {
+      outline: 0;
+    }
+  }
+}
