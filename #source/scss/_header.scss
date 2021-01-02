@@ -4,6 +4,24 @@ header {
   justify-content: space-between;
   background-color: #1b1b1b;
   color: #e7e7e7;
+  @media screen and (max-width: 576px) {
+    p {
+      display: none;
+    }
+    .contact {
+      margin: 15px auto;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    span {
+      display: none;
+    }
+    p,
+    .contact {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  }
   p {
     font-size: 36px;
   }
