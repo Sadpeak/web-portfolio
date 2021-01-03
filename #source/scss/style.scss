@@ -45,3 +45,26 @@ body {
     }
   }
 }
+
+.about:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.advantages {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-around;
+  .advantage {
+    margin-right: 50px;
+    text-align: center;
+    &-title {
+      font-size: 30px;
+    }
+    &-desc {
+      font-size: 22px;
+      width: 30vh;
+    }
+  }
+}
